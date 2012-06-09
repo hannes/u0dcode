@@ -1,0 +1,7 @@
+php_value memory_limit 256M
+php_value post_max_size 100M
+php_value upload_max_filesize 100M
+php_value max_execution_time 1800
+
+RewriteEngine on
+RewriteRule ^([a-f0-9]{6})\/([^\/]+)$ /read.php?data_filename=$1&save_filename=$2
