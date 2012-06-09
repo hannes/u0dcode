@@ -1,0 +1,80 @@
+body {
+  font-family: Verdana, sans-serif; 
+  color: #333333;
+  font-size: 10pt;
+}
+
+.message, .error {
+  margin: 20px;
+  padding: 10px;
+  font-size: 12pt;
+  border: 1px solid #f90;
+}
+
+#container {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#file-uploader {
+	margin: 30px;
+}
+
+#footer {
+  margin: 20px;
+}
+
+#footer, #footer a {
+  font-size: 9pt;
+  color: #999999;
+
+}
+
+h2 {
+	margin: 0px;
+	padding: 2px;
+	padding-bottom: 15px;
+	color: #f90;
+	font-weight: normal;
+	font-size: 20pt;
+}
+
+form {
+	margin: 0px;
+	padding: 2px;
+}
+
+.error {
+	color: f00;
+}
+
+input {
+  font-size: 12pt;
+}
+
+
+.dl-link {
+	color: navy;
+	margin: 5px 3px;
+	font-size: 14pt;
+}
+
+.dl-input {
+	border: 1px solid #f90;
+	margin: 5px 0px;
+	padding: 2px;
+	background-color: #e9e9e9;
+}
+
+.back-link {
+	text-decoration: none;
+	color: #f90;
+	font-size: 12pt;
+	margin: 32px;
+}
+
+.info {
+    font-weight: bold;
+}
